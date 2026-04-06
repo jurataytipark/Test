@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
   let value = input.value.trim()
 
   if (value === "") {
-    error.textContent = "Biron nima kiriting..."
+    error.textContent = "Biron nima kiriting!"
 
     setTimeout(() => {
       error.textContent = ""
